@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JP's Electronics</title> <!--제목-->
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">  <!--폰트-->
+    <link rel="stylesheet" type="text/css" href="main.css"/>    <!--main.css-->
+    <script type="text/javascript" src="theme.js"></script> <!--them.js-->
+</head>
+<body id="background"> 
+    <header>
+        <a id ="logo" href="main.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            JP's Electronics</a>    <!--웹페이지 Logo-->
+        <button id="theme" type="button" onclick='Changetheme();'>Theme</button>    <!--테마 버튼-->
+    </header>
+    <hr>
+     <ul class="menubar">   <!--기본 메뉴 클래스 menubar-->
+        <li class="drop"><a href="Desktop.html" target="display_area">Desktop</a>   <!--기본 메뉴 리스트 클래스 drop, 컴퓨터 메뉴-->
+          <ul>
+             <div class="menu">     <!--서브메뉴 클래스 menu-->
+             <li><a href="Desktop.html#desktop"; target="display_area";>Parts</a><p></p></li>   <!--서브메뉴를 눌렀을 때 Desktop.html의 각 ID 위치로 이동-->
+             <li><a href="Desktop.html#pictures"; target="display_area";>Pictures</a><p></p></li>
+             </div>
+        </ul>
+         </li>
+        <li><a href="Laptop.html" target="display_area">Laptop</a></li> <!--노트북 메뉴-->
+        <li class="drop"><a href="Earphone.html" target="display_area">Earphones</a>    <!--이어폰 메뉴-->
+        <ul>
+             <div class="menu">
+             <li><a href="https://crinacle.com/"; target="blank";>Evaluation</a><p></p></li>    <!--서브메뉴를 눌렀을 때 각 사이트에 이동-->
+             <li><a href="http://www.schezade.co.kr/"; target="blank";>Shop</a><p></p></li>
+             </div>
+        </ul>
+         </li>
+        <li class="drop"><a href="Youtube.html"; target="display_area";>&nbsp;&nbsp;Youtube</a> <!--유튜브 메뉴-->
+         <ul>
+             <div class="menu">
+             <li><a href="https://www.youtube.com/channel/UCdUcjkyZtf-1WJyPPiETF1g"; target="blank";>ITSub</a><p></p></li>  <!--서브메뉴를 눌렀을 때 각 사이트에 이동-->
+             <li><a href="https://www.youtube.com/channel/UCGnRn4WO7w-6fcfvXzOxzDw"; target="blank";>KimMo</a><p></p></li>
+             <li><a href="https://www.youtube.com/user/UNDERkgSHOW"; target="blank";>UNDERkg</a><p></p></li>
+             </div>
+        </ul>
+         </li>
+    </ul>
+    <span style="float: right; line-height: 10px;">
+        <br>
+    <a href="https://www.amazon.com/ref=nav_logo" target="_blank"><img src="images/amazon.png"; width="30px";></a><p class="image">&nbsp;</p>   <!--메뉴 옆의 아이콘들-->
+    <a href="https://www.ebay.com/" target="_blank"><img src="images/ebay.png"; width="30px";></a><p class="image">&nbsp;</p>
+    <a href="https://best.aliexpress.com/?lan=en" target="_blank"><img src="images/alie.png"; width="30px";></a><p class="image">&nbsp;</p>
+    </span>
+    <hr>
+    <br>
+
+    <iframe id="frame" class="center" name="display_area" src="main_iframe.html" frameborder="0" seamless="true" >
+    </iframe>   <!--iframe의 name을 설정하여 메뉴버튼을 눌렀을 때 각 html이 iframe에 보여지도록 설정-->
+    <hr>
+    <footer>    <!--SNS 사이트 연결-->
+         <ul>
+        <li><a href="https://www.facebook.com/" target="blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/?hl=ko" target="blank">Instagram</a></li>
+        <li><a href="https://twitter.com/" target="blank">&nbsp;&nbsp;Twitter</a></li>
+        <li><a href="https://mail.naver.com/" target="blank">Mail</a></li>
+    </ul>
+        <div>
+        <p>Copyright (c) 2019 JP's Electronics Inc. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>

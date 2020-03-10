@@ -1,0 +1,18 @@
+*{font-family: 'Roboto Mono', monospace;    /*전체 폰트 설정*/
+}
+
+.article{column-count: 2;   /*세로로 두 칸을 나눔*/
+    column-gap: 40px;
+}
+
+.explain li{padding: 15px 0px;
+}
+
+button{font-size: 30px;
+}
+p{text-align: center;
+font-size: 15px;
+}
+
+h1{font-size: 25px;
+}

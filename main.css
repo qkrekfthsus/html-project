@@ -1,0 +1,74 @@
+*{font-family: 'Caveat', cursive;} /*전체 폰트 설정*/
+header{font-size:50px;          /*제목*/
+    text-align:center;
+}
+#background{background-color: white;}/*배경 색*/
+#theme{float: right;    /*테마 버튼*/
+        font-size: 15px;
+        }
+
+/*li의 버튼을 눌렀을 때 색깔이 변경 되지 않도록 설정*/
+a:link { color:#000000;
+    text-decoration:none;
+}
+
+a:visited { color:#000000;
+    text-decoration:none;
+}
+
+a:hover { color:#000000;
+    text-decoration:none;
+}
+
+a:active { color:#000000;
+    text-decoration:none;
+}
+
+/*-------------------------------------------*/
+
+li{ /*메뉴 리스트*/
+    list-style: none;
+    font-size: 25px;display:inline-block;
+    padding: 5px 30px;
+    width: 50px;
+    text-align: center;
+}
+
+li a:hover{background-color: black; /*메뉴 리스트에 마우스를 갖다댔을 때, 배경과 폰트 색깔이 바뀌도록 설정*/
+    color: white; 
+}
+
+ul{text-align: center;}
+
+iframe{display: block;  /*iframe 크기 및 디스플레이 설정*/
+    width: 100%;
+    height: 455px;
+}
+
+p{
+    text-align: center;
+}
+
+.menubar{display: inline;
+    line-height: "50px";
+}
+
+.image{display: inline;}
+
+.menu{position: absolute;   /*서브메뉴 속성*/
+    top: 40px; left: 5px;
+    display: none;
+    background-color: lightgray;
+    width: auto;
+    height: auto;
+    line-height: 10px;
+}
+
+.drop{position: relative;   /*상위 메뉴 리스트 속성*/
+}
+
+.drop:hover .menu{display:block;    /*메뉴리스트에 마우스를 갖다댔을 때, 서브메뉴가 나타나도록 설정*/
+}
+
+.menu li{font-size: 20px;
+}

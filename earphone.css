@@ -1,0 +1,9 @@
+*{font-family: 'Roboto Mono', monospace; font-size: 13px    /*전체 폰트 및 폰트 크기 설정*/
+}
+
+.explain li{padding: 10px 0px;
+}
+
+.article{column-count: 4;   /*화면을 세로로 4칸 나눔*/
+    column-gap: 40px;
+}
